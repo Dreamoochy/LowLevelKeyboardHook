@@ -1,0 +1,30 @@
+object MainForm: TMainForm
+  Left = 989
+  Height = 240
+  Top = 292
+  Width = 320
+  Caption = 'MainForm'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.2.6.0'
+  object btnHookInstall: TButton
+    Left = 17
+    Height = 25
+    Top = 18
+    Width = 90
+    Caption = 'Install Hook'
+    OnClick = btnHookInstallClick
+    TabOrder = 0
+  end
+  object btnHookUninstall: TButton
+    Left = 125
+    Height = 25
+    Top = 18
+    Width = 90
+    Caption = 'Uninstall Hook'
+    OnClick = btnHookUninstallClick
+    TabOrder = 1
+  end
+end
